@@ -85,6 +85,8 @@ header {
   padding: 0.3rem 1rem;
   border-radius: 8px;
   cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .container-cookie p{
@@ -332,7 +334,7 @@ p.price{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .product-thumb-image:hover .product-image {
@@ -343,7 +345,7 @@ p.price{
   animation-name: height_decrease;
   animation-duration: 1s;
   height: 30%;
-  background-color: rgba(0,0,0,0.7);
+  /* background-color: rgba(0,0,0,0.7); */
 }
 
 @keyframes height_decrease {
@@ -415,16 +417,29 @@ p.price{
   padding-bottom: 1rem;
 }
 
+.accept-terms{
+  position: relative;
+  margin: 0 0.3rem;
+  border: 0;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  border: 1px solid black;
+}
+
 .terms-and-conditions-container{
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  width: 60%;
+  width: 90%;
   height: 10rem;
   overflow-y: scroll;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
   border-radius: 3px;
   padding: 1rem;
 }
@@ -435,7 +450,8 @@ p.price{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 100%;
+  text-align: center;
 }
 
 .terms-and-conditions-container p{
@@ -561,6 +577,8 @@ h3.product-big-desc-price{
     margin-top: -3rem;
     padding-top: 10rem;
   }
+
+
 
   .showcase::before {
     animation: animate 70s linear infinite;
@@ -777,6 +795,11 @@ h3.product-big-desc-price{
 
   .city-img {
     top: 0;
+  }
+
+  .container-check-terms{
+    font-size: 0.65rem;
+    padding: 0.5rem 0;
   }
 
   .showcase .showcase-inner {
