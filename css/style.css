@@ -121,7 +121,7 @@ header {
 }
 
 .city-sky-img {
-  background: url("../City-Sky.PNG");
+  background: url("../City-Sky.png");
   background-repeat: repeat-x;
   position: absolute;
   top: 0;
@@ -607,7 +607,6 @@ h3.product-big-desc-price{
   }
 
   .city-sky-img {
-    background: url("../City - Sky.png");
     background-repeat: repeat-x;
     position: absolute;
     top: 9.5%;
