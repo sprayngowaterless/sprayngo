@@ -120,7 +120,7 @@ header {
   position: relative;
 }
 
-.city-sky-img {
+/* .city-sky-img {
   background: url("../City-Sky.PNG");
   background-repeat: repeat-x;
   position: absolute;
@@ -142,7 +142,7 @@ header {
   to {
     background-position: 700% 0;
   }
-}
+} */
 
 .showcase::before {
   content: '';
@@ -606,14 +606,14 @@ h3.product-big-desc-price{
     padding-top: 10rem;
   }
 
-  .city-sky-img {
+  /* .city-sky-img {
     top: 9.5%;
     left: 0;
     width: 100%;
     height: 13.3%;
     z-index: -1;
     animation: animate-sky 100s linear infinite;
-  }
+  } */
 
   .showcase::before {
     animation: animate 70s linear infinite;
