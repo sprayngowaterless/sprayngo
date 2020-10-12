@@ -319,17 +319,18 @@ h4>p {
 
 .product-thumb {
   position: relative;
-  width: 240px;
+  width: 20%;
   height: auto;
   display: inline-table;
   background-color: #46C28C;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+
 }
 
 .product-thumb-image {
   margin-left: 0.65rem;
-  width: 100px;
+  width: 40%;
   height: auto;
   position: relative;
 }
@@ -357,8 +358,8 @@ p.price{
   transition: .5s ease;
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
+  left: 50.25%;
+  transform: translate(-50.25%);
   -ms-transform: translate(-50%);
   display: flex;
   justify-content: center;
@@ -385,6 +386,18 @@ p.price{
 .product-name-price {
   color: white;
   margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.product-thumb-image:hover .product-name-price{
+  animation-name: decrease_font;
+  animation-duration: 1s;
+  font-size: 0.7rem;
+}
+
+@keyframes decrease_font {
+  0% {font-size: 0.8rem;}
+  100% {font-size: 0.7rem;}
 }
 
 .quickview-title {
@@ -587,11 +600,15 @@ h3.product-big-desc-price{
   margin-right: 50%;
 }
 
-@media all and (min-width: 900px) and (max-width: 1300px){
-
+@media all and (min-width: 768px) and (max-width: 1300px){
   .container-product {
-    padding: 0 3%;
+    padding: 0 1.5rem;
   }
+
+  .product-thumb{
+    padding: 0 0.1rem;
+  }
+
 }
 
 
@@ -605,6 +622,21 @@ h3.product-big-desc-price{
   #products{
     margin-top: -3rem;
     padding-top: 10rem;
+  }
+
+  .product-name-price{
+    font-size: 0.7rem;
+  }
+
+  .product-thumb-image:hover .product-name-price{
+    animation-name: decrease_font;
+    animation-duration: 1s;
+    font-size: 0.6rem;
+  }
+
+  @keyframes decrease_font {
+    0% {font-size: 0.7rem;}
+    100% {font-size: 0.6rem;}
   }
 
   .city-sky-img {
@@ -703,11 +735,10 @@ h3.product-big-desc-price{
   }
 
   .product-thumb {
-    width: 240px;
+    width: 45%;
     height: auto;
     display: inline-table;
     margin-bottom: 2.5rem;
-
   }
 
   .product-view {
@@ -827,7 +858,7 @@ h3.product-big-desc-price{
   }
 
   .container-product {
-    padding: 0;
+    padding: 0 1rem;
   }
 
   .city-img {
