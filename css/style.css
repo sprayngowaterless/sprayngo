@@ -121,7 +121,7 @@ header {
 }
 
 .city-sky-img {
-  background: url("../City-Sky.png");
+  background: url("../City-Sky.PNG");
   background-repeat: repeat-x;
   position: absolute;
   top: 0;
