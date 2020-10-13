@@ -182,12 +182,11 @@ header {
 }
 
 .img {
-  width: 80%;
+  width: 55%;
   height: auto;
   position: relative;
-  bottom: 0;
+  margin-bottom: 10rem;
   transform: scaleX(-1);
-  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -198,12 +197,12 @@ header {
 
 .btn {
   display: inline-block;
+  position: absolute;
   border-radius: 10px;
   background-color: black;
   color: #fff;
-  padding: 0.75rem 1.5rem;
-  padding-bottom: 1rem;
-  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  margin-top: 14rem;
   text-decoration: none;
   scroll-behavior: smooth;
   margin-left: auto;
@@ -227,7 +226,10 @@ header {
 }
 
 .showcase .ez {
-  height: 10%;
+  position: absolute;
+  display: block;
+  margin-top: 8rem;
+  height: 8%;
 }
 
 #about{
@@ -307,10 +309,11 @@ h4>p {
   position: relative;
   padding: 0 10%;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 .COP {
+  padding-top: 3rem;
   text-align: center;
   margin: 3rem auto;
   font-family: 'Raleway', sans-serif;
@@ -469,7 +472,8 @@ p.price{
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  border: 1px solid black;
+  color: white;
+  background: #46C28C;
 }
 
 .terms-and-conditions-container{
@@ -511,7 +515,7 @@ p.price{
 .sng {
   width: 10%;
   height: auto;
-  padding-bottom: 10px;
+  padding-bottom: 0.3rem;
 }
 
 .lazada {
@@ -575,6 +579,8 @@ p.price{
   margin-left: 20%;
 } */
 .product-big-desc {
+  font-family: 'Poppins', sans-serif;
+  padding-right: 1rem;
   overflow-y: scroll;
   display: inline-block;
   float: right;
@@ -584,6 +590,10 @@ p.price{
 
 h3.product-big-desc-price{
   font-weight: 400;
+}
+
+h3.logo-text{
+  font-size: 1.1rem;
 }
 
 .buybutton {
@@ -643,12 +653,13 @@ h3.product-big-desc-price{
     top: 4rem;
     left: 0;
     width: 100%;
-    height: 12%;
+    height: 13.2vh;
     z-index: -1;
     animation: animate-sky 100s linear infinite;
   }
 
   .showcase::before {
+    top: 0.5rem;
     animation: animate 70s linear infinite;
   }
 
@@ -663,6 +674,7 @@ h3.product-big-desc-price{
   }
 
   .img {
+    margin-top: 5%;
     display: block;
     width: 70%;
     min-width: 185px;
@@ -685,8 +697,6 @@ h3.product-big-desc-price{
   }
 
   .showcase .ez {
-    position: absolute;
-    display: block;
     height: 2rem;
     margin-top: 5rem;
   }
@@ -779,6 +789,7 @@ h3.product-big-desc-price{
   }
 
   .product-big-desc {
+    padding-right: 0;
     width: 100%;
     height: auto;
     text-align: center;

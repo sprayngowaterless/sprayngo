@@ -1,8 +1,3 @@
-body {
-  position:relative;
-  background-color: #46C28C;
-}
-
 /* footer{
   position: absolute;
   bottom: 0;
@@ -47,19 +42,19 @@ body {
   padding-top: 0.5rem;
 }
 
-/* #partners table th{
+#partners table th{
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-
   font-size: 1.5rem;
+  width: 33%;
   height: auto;
-} */
+}
 
-#partners .logo-list{
+/* #partners .logo-list{
   width: 7rem;
   height: auto;
   padding-top: 1rem;
-}
+} */
 
 .online-list{
   padding: 0.5rem 0;
